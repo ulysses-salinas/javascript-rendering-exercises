@@ -13,13 +13,13 @@
   const orangeRectangle = {
     width: 100,
     height: 200,
-    color: "#ffa500"
+    color: '#ffa500'
   }
 
   const blueRectangle = {
     width: 200,
     height: 100,
-    color: "#4731d9"
+    color: '#4731d9'
   }
 
   const contentElement = document.getElementById('content')

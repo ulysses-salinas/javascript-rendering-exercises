@@ -12,26 +12,26 @@
   // here we have five students, each represented by a JavaScript Object,
   // all collected into an Array.
   const studentsData = [
-      {
-          name: "Kamilah",
-          isPresent: true
-      },
-      {
-          name: "Kim",
-          isPresent: true
-      },
-      {
-          name: "Stuart",
-          isPresent: false
-      },
-      {
-          name: "Ron",
-          isPresent: true
-      },
-      {
-          name: "Krissy",
-          isPresent: false
-      }
+    {
+      name: 'Kamilah',
+      isPresent: true
+    },
+    {
+      name: 'Kim',
+      isPresent: true
+    },
+    {
+      name: 'Stuart',
+      isPresent: false
+    },
+    {
+      name: 'Ron',
+      isPresent: true
+    },
+    {
+      name: 'Krissy',
+      isPresent: false
+    }
   ]
 
   const contentElement = document.getElementById('content')

@@ -20,7 +20,7 @@
   // It is just data about a square.
   const squareData = {
     side: 100,
-    color: "#00FFFF"
+    color: '#00FFFF'
   }
 
   // let's grab some DOM elements using ids

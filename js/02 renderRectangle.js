@@ -13,7 +13,7 @@
   const rectangleData = {
     width: 200,
     height: 100,
-    color: "#FF00FF"
+    color: '#FF00FF'
   }
 
   const contentElement = document.getElementById('content')

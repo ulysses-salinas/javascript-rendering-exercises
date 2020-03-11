@@ -14,26 +14,26 @@
   // here we have a pokerHand, represented by a JavaScript Array,
   // each card represented by an Object.
   const pokerHandData = [
-      {
-          value: "K",
-          suit: "C"
-      },
-      {
-          value: "K",
-          suit: "D"
-      },
-      {
-          value: "9",
-          suit: "S"
-      },
-      {
-          value: "2",
-          suit: "H"
-      },
-      {
-          value: "9",
-          suit: "H"
-      }
+    {
+      value: 'K',
+      suit: 'C'
+    },
+    {
+      value: 'K',
+      suit: 'D'
+    },
+    {
+      value: '9',
+      suit: 'S'
+    },
+    {
+      value: '2',
+      suit: 'H'
+    },
+    {
+      value: '9',
+      suit: 'H'
+    }
   ]
 
   const contentElement = document.getElementById('content')

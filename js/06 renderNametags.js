@@ -12,11 +12,11 @@
   // here we have five nametags, each represented by a JavaScript String,
   // all collected into an Array.
   const nametagsData = [
-     "Kamilah",
-     "Kim",
-     "Stuart",
-     "Ron",
-     "Krissy"
+    'Kamilah',
+    'Kim',
+    'Stuart',
+    'Ron',
+    'Krissy'
   ]
 
   const contentElement = document.getElementById('content')

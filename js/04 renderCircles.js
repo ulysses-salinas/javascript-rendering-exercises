@@ -3,8 +3,8 @@
   function buildCircleHTML (circle) {
     return `
       <div style="
-        width: ${circle.radius*2}px;
-        height: ${circle.radius*2}px;
+        width: ${circle.radius * 2}px;
+        height: ${circle.radius * 2}px;
         background-color: ${circle.color};
         border-radius: 50%;
         margin: 5px;
@@ -16,22 +16,22 @@
   // here we have four circles, each represented by a JavaScript Object,
   // all collected into an Array.
   const circlesData = [
-      {
-          radius: 50,
-          color: "#FF00FF"
-      },
-      {
-          radius: 30,
-          color: "#FF99AA"
-      },
-      {
-          radius: 60,
-          color: "#0000FF"
-      },
-      {
-          radius: 10,
-          color: "#000000"
-      },
+    {
+      radius: 50,
+      color: '#FF00FF'
+    },
+    {
+      radius: 30,
+      color: '#FF99AA'
+    },
+    {
+      radius: 60,
+      color: '#0000FF'
+    },
+    {
+      radius: 10,
+      color: '#000000'
+    }
   ]
 
   const contentElement = document.getElementById('content')

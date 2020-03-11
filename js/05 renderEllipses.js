@@ -14,26 +14,26 @@
   // here we have four ellipses, each represented by a JavaScript Object,
   // all collected into an Array.
   const ellipsesData = [
-      {
-          height: 50,
-          width: 100,
-          color: "#F0F"
-      },
-      {
-          height: 100,
-          width: 50,
-          color: "#F58"
-      },
-      {
-          height: 70,
-          width: 200,
-          color: "#3CD"
-      },
-      {
-          height: 180,
-          width: 110,
-          color: "#D2F"
-      },
+    {
+      height: 50,
+      width: 100,
+      color: '#F0F'
+    },
+    {
+      height: 100,
+      width: 50,
+      color: '#F58'
+    },
+    {
+      height: 70,
+      width: 200,
+      color: '#3CD'
+    },
+    {
+      height: 180,
+      width: 110,
+      color: '#D2F'
+    }
   ]
 
   const contentElement = document.getElementById('content')

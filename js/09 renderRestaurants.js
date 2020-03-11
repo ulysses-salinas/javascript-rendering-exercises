@@ -12,21 +12,21 @@
   // here we have four restaurants, each represented by a JavaScript Object,
   // all collected into an Array.
   const restaurantsData = [
-      {
-          name: "McDonald's",
-          type: "Fast Food",
-          priceRating: 1
-      },
-      {
-          name: "Gunshow",
-          type: "Date Night Dining",
-          priceRating: 5
-      },
-      {
-          name: "Iron Age",
-          type: "Korean BBQ",
-          priceRating: 4
-      },
+    {
+      name: "McDonald's",
+      type: 'Fast Food',
+      priceRating: 1
+    },
+    {
+      name: 'Gunshow',
+      type: 'Date Night Dining',
+      priceRating: 5
+    },
+    {
+      name: 'Iron Age',
+      type: 'Korean BBQ',
+      priceRating: 4
+    }
   ]
 
   const contentElement = document.getElementById('content')
