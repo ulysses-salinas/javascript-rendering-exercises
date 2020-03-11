@@ -11,7 +11,8 @@
 
   // here we have an artist Object with an Array of two albums,
   // each represented by a JavaScript Object.
-  const albumsData = {
+  const albumsData = [
+    {
       artist: "Creed",
       albums: [
           {
@@ -47,7 +48,7 @@
           },
           {
               title: "Weathered",
-              albumCover: "https://is5-ssl.mzstatic.com/image/thumb/Music22/v4/b1/a4/a9/b1a4a9dd-ecda-6233-07da-f53848d37bdf/mzm.qakvcpwo.jpg/1200x630bb.jpg",
+              albumCover: "https://images-na.ssl-images-amazon.com/images/I/81sD1hpYi7L.jpg",
               songs: [
                   {
                       title: "Bullets",
@@ -76,7 +77,118 @@
               ]
           }
       ]
-  }
+    },
+    {
+      artist: "Eve 6",
+      albums: [
+          {
+              title: "Eve 6",
+              albumCover: "https://images-na.ssl-images-amazon.com/images/I/517r8Wx6JyL.jpg",
+              songs: [
+                  {
+                      title: "How Much Longer",
+                      length: "3:06"
+                  },
+                  {
+                      title: "Inside Out",
+                      length: "3:39"
+                  },
+                  {
+                      title: "Leech",
+                      length: "3:59"
+                  },
+                  {
+                      title: "Showerhead",
+                      length: "3:03"
+                  },
+                  {
+                      title: "Open Road Song",
+                      length: "3:15"
+                  },
+                  {
+                      title: "Jesus Nitelite",
+                      length: "4:48"
+                  },
+                  {
+                      title: "Superhero Girl",
+                      length: "3:36"
+                  },
+                  {
+                      title: "Tongue Tied",
+                      length: "3:11"
+                  },
+                  {
+                      title: "Saturday Night",
+                      length: "2:50"
+                  },
+                  {
+                      title: "There's a Face",
+                      length: "2:38"
+                  },
+                  {
+                      title: "Small Town Trap",
+                      length: "4:19"
+                  }
+              ]
+
+          },
+          {
+              title: "Horrorscope",
+              albumCover: "https://images-na.ssl-images-amazon.com/images/I/71jv09nffWL.jpg",
+              songs: [
+                  {
+                      title: "Rescue",
+                      length: "3:56"
+                  },
+                  {
+                      title: "Promise",
+                      length: "2:56"
+                  },
+                  {
+                      title: "On the Roof Again",
+                      length: "3:05"
+                  },
+                  {
+                      title: "Sunset Strip Bitch",
+                      length: "3:18"
+                  },
+                  {
+                      title: "Here's to the Night",
+                      length: "4:09"
+                  },
+                  {
+                      title: "Amphetamines",
+                      length: "2:46"
+                  },
+                  {
+                      title: "Enemy",
+                      length: "3:48"
+                  },
+                  {
+                      title: "Nocturnal",
+                      length: "3:07"
+                  },
+                  {
+                      title: "Jet Pack",
+                      length: "3:33"
+                  },
+                  {
+                      title: "Nightmare",
+                      length: "3:07"
+                  },
+                  {
+                      title: "Bang",
+                      length: "3:34"
+                  },
+                  {
+                      title: "Girl Eyes",
+                      length: "3:45"
+                  }
+              ]
+          }
+      ]
+    }
+  ]
 
   const contentElement = document.getElementById('content')
   const btnEl = document.getElementById('albumsBtn')
