@@ -11,9 +11,9 @@
     `
   }
 
-  // here we have five pokerHands, each represented by a JavaScript Object,
-  // all collected into an Array.
-  const pokerHandsData = [
+  // here we have a pokerHand, represented by a JavaScript Array,
+  // each card represented by an Object.
+  const pokerHandData = [
       {
           value: "K",
           suit: "C"
@@ -40,7 +40,7 @@
   const btnEl = document.getElementById('pokerHandsBtn')
 
   function clickPokerHandsBtn () {
-    // using the buildPokerHandHTML function, create the HTML for the pokerHandsData
+    // using the buildPokerHandHTML function, create the HTML for the pokerHandData
     // Array and then put them into the <div id=content> element
 
     // TODO: your code goes here
