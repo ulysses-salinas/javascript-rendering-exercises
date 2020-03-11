@@ -6,11 +6,12 @@
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
   function buildSquareHTML (square) {
     return `
-      <div class="text-center mt-5" style="
-      width: ${square.side}px;
-      height: ${square.side}px;
-      background-color: ${square.color};
-      "></div>
+     <div style="
+        width: ${square.side}px;
+        height: ${square.side}px;
+        background-color: ${square.color};
+        ">
+      </div>
     `
   }
 

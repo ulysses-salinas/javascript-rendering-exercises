@@ -1,11 +1,14 @@
 ;(function () {
   // convert a circle JavaScript object to an HTML string
   function buildCircleHTML (circle) {
-    // TODO: Your code goes here.
     return `
-        <div class="text-center mt-5">
-            <code>${JSON.stringify(circle)}</code>
-        </div>
+      <div style="
+        width: ${circle.radius*2}px;
+        height: ${circle.radius*2}px;
+        background-color: ${circle.color};
+        border-radius: 50%;
+        ">
+      </div>
     `
   }
 
@@ -37,7 +40,7 @@
     // using the buildCircleHTML function, create the HTML for the circlesData
     // Array and then put them into the <div id=content> element
 
-    // TODO: your code goes here
+    contentElement.innerHTML = circlesData.map(buildCircleHTML).join('')
   }
 
   // attach an event handler for button click
