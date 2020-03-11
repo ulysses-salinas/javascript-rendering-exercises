@@ -1,23 +1,23 @@
 ;(function () {
-  // convert a album JavaScript object to an HTML string
-  function buildAlbumHTML (album) {
+  // convert a band JavaScript object to an HTML string
+  function buildBandHTML (band) {
     // TODO: Your code goes here.
     return `
         <div class="text-center mt-5">
-            <code>${JSON.stringify(album)}</code>
+            <code>${JSON.stringify(band)}</code>
         </div>
     `
   }
 
-  // here we have an artist Object with an Array of two albums,
+  // here we have an artist Object with an Array of two bands,
   // each represented by a JavaScript Object.
-  const albumsData = [
+  const bandsData = [
     {
       artist: "Creed",
       albums: [
           {
               title: "My Own Prison",
-              albumCover: "https://images-na.ssl-images-amazon.com/images/I/51Y5ZCMV2QL.jpg",
+              coverArt: "https://images-na.ssl-images-amazon.com/images/I/51Y5ZCMV2QL.jpg",
               songs: [
                   {
                       title: "Torn",
@@ -48,7 +48,7 @@
           },
           {
               title: "Weathered",
-              albumCover: "https://images-na.ssl-images-amazon.com/images/I/81sD1hpYi7L.jpg",
+              coverArt: "https://images-na.ssl-images-amazon.com/images/I/81sD1hpYi7L.jpg",
               songs: [
                   {
                       title: "Bullets",
@@ -83,7 +83,7 @@
       albums: [
           {
               title: "Eve 6",
-              albumCover: "https://images-na.ssl-images-amazon.com/images/I/517r8Wx6JyL.jpg",
+              coverArt: "https://images-na.ssl-images-amazon.com/images/I/517r8Wx6JyL.jpg",
               songs: [
                   {
                       title: "How Much Longer",
@@ -134,7 +134,7 @@
           },
           {
               title: "Horrorscope",
-              albumCover: "https://images-na.ssl-images-amazon.com/images/I/71jv09nffWL.jpg",
+              coverArt: "https://images-na.ssl-images-amazon.com/images/I/71jv09nffWL.jpg",
               songs: [
                   {
                       title: "Rescue",
@@ -191,35 +191,15 @@
   ]
 
   const contentElement = document.getElementById('content')
-  const btnEl = document.getElementById('albumsBtn')
+  const btnEl = document.getElementById('bandsBtn')
 
-  function clickAlbumsBtn () {
-    // using the buildAlbumHTML function, create the HTML for the albumsData
+  function clickBandsBtn () {
+    // using the buildBandHTML function, create the HTML for the bandsData
     // Array and then put them into the <div id=content> element
 
     // TODO: your code goes here
   }
 
   // attach an event handler for button click
-  btnEl.addEventListener('click', clickAlbumsBtn)
+  btnEl.addEventListener('click', clickBandsBtn)
 })()
-
-
-function renderAlbums(albums) {
-    return `
-        <div class="text-center mt-5">
-            <code>${JSON.stringify(albums)}</code>
-        </div>
-    `
-}
-
-function albums() {
-    var content = document.getElementById('content');
-
-    var albumsAbstraction = [
-
-    ]
-
-    content.innerHTML = renderAlbums(albumsAbstraction);
-
-}
