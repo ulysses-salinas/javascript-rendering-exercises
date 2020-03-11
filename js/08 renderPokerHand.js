@@ -2,8 +2,8 @@
   // convert a pokerhand JavaScript object to an HTML string
   function buildPokerHandHTML (pokerHand) {
     // TODO: Your code goes here.
-    // HINT: utilize the (conveniently named) images in the ./cards/ directory
-    //       to render each card in the hand.
+    // HINT: utilize the (conveniently named) images in the ./images/cards/
+    //       directory to render each card in the hand.
     return `
         <div class="text-center mt-5">
             <code>${JSON.stringify(pokerHand)}</code>
