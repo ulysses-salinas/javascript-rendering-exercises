@@ -1,8 +1,3 @@
-Student
-Students
-students
-student
-
 ;(function () {
   // convert a student JavaScript object to an HTML string
   function buildStudentHTML (student) {

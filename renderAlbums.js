@@ -1,8 +1,3 @@
-Album
-Albums
-albums
-album
-
 ;(function () {
   // convert a album JavaScript object to an HTML string
   function buildAlbumHTML (album) {

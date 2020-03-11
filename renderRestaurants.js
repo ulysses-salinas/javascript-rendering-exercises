@@ -1,8 +1,3 @@
-Restaurant
-Restaurants
-restaurants
-restaurant
-
 ;(function () {
   // convert a restaurant JavaScript object to an HTML string
   function buildRestaurantHTML (restaurant) {
