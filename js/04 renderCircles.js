@@ -7,6 +7,7 @@
         height: ${circle.radius*2}px;
         background-color: ${circle.color};
         border-radius: 50%;
+        margin: 5px;
         ">
       </div>
     `
@@ -40,7 +41,11 @@
     // using the buildCircleHTML function, create the HTML for the circlesData
     // Array and then put them into the <div id=content> element
 
-    contentElement.innerHTML = circlesData.map(buildCircleHTML).join('')
+    contentElement.innerHTML = `
+      <div class="d-flex flex-column align-items-center">
+      ${circlesData.map(buildCircleHTML).join('')}
+      </div>
+      `
   }
 
   // attach an event handler for button click
