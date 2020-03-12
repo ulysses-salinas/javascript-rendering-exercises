@@ -9,8 +9,7 @@
     `
   }
 
-  // here we have an artist Object with an Array of two bands,
-  // each represented by a JavaScript Object.
+  // Some great late 90s, early 2000s albums here ;)
   const bandsData = [
     {
       artist: 'Creed',
@@ -190,16 +189,7 @@
     }
   ]
 
-  const contentElement = document.getElementById('content')
-  const btnEl = document.getElementById('bandsBtn')
+  // Now that we have seen a few examples, try to write your own button click and
+  // attach event handler code below.
 
-  function clickBandsBtn () {
-    // using the buildBandHTML function, create the HTML for the bandsData
-    // Array and then put them into the <div id=content> element
-
-    // TODO: your code goes here
-  }
-
-  // attach an event handler for button click
-  btnEl.addEventListener('click', clickBandsBtn)
 })()

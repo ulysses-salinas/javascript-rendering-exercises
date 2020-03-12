@@ -29,16 +29,7 @@
     }
   ]
 
-  const contentElement = document.getElementById('content')
-  const btnEl = document.getElementById('restaurantsBtn')
+  // Now that we have seen a few examples, try to write your own button click and
+  // attach event handler code below.
 
-  function clickRestaurantsBtn () {
-    // using the buildRestaurantHTML function, create the HTML for the restaurantsData
-    // Array and then put them into the <div id=content> element
-
-    // TODO: your code goes here
-  }
-
-  // attach an event handler for button click
-  btnEl.addEventListener('click', clickRestaurantsBtn)
 })()

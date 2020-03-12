@@ -57,16 +57,7 @@
     }
   ]
 
-  const contentElement = document.getElementById('content')
-  const btnEl = document.getElementById('surveysBtn')
+  // Now that we have seen a few examples, try to write your own button click and
+  // attach event handler code below.
 
-  function clickSurveysBtn () {
-    // using the buildSurveyHTML function, create the HTML for the surveysData
-    // Array and then put them into the <div id=content> element
-
-    // TODO: your code goes here
-  }
-
-  // attach an event handler for button click
-  btnEl.addEventListener('click', clickSurveysBtn)
 })()

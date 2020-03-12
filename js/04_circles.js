@@ -1,15 +1,12 @@
 ;(function () {
   // convert a circle JavaScript object to an HTML string
   function buildCircleHTML (circle) {
+    // HINT: You can create a circle out of a <div> by using the border-radius CSS property
+    // { background: blue, border-radius: 50%; }
     return `
-      <div style="
-        width: ${circle.radius * 2}px;
-        height: ${circle.radius * 2}px;
-        background-color: ${circle.color};
-        border-radius: 50%;
-        margin: 5px;
-        ">
-      </div>
+        <div class="text-center mt-5">
+            <code>${JSON.stringify(circle)}</code>
+        </div>
     `
   }
 

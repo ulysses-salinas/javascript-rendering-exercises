@@ -19,16 +19,7 @@
     'Krissy'
   ]
 
-  const contentElement = document.getElementById('content')
-  const btnEl = document.getElementById('nametagsBtn')
+  // Now that we have seen a few examples, try to write your own button click and
+  // attach event handler code below.
 
-  function clickNametagsBtn () {
-    // using the buildNametagHTML function, create the HTML for the nametagsData
-    // Array and then put them into the <div id=content> element
-
-    // TODO: your code goes here
-  }
-
-  // attach an event handler for button click
-  btnEl.addEventListener('click', clickNametagsBtn)
 })()

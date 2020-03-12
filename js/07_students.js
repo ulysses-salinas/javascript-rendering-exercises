@@ -34,16 +34,7 @@
     }
   ]
 
-  const contentElement = document.getElementById('content')
-  const btnEl = document.getElementById('studentsBtn')
+  // Now that we have seen a few examples, try to write your own button click and
+  // attach event handler code below.
 
-  function clickStudentsBtn () {
-    // using the buildStudentHTML function, create the HTML for the studentsData
-    // Array and then put them into the <div id=content> element
-
-    // TODO: your code goes here
-  }
-
-  // attach an event handler for button click
-  btnEl.addEventListener('click', clickStudentsBtn)
 })()
