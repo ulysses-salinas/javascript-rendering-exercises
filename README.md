@@ -8,6 +8,9 @@ called "rendering".
 Look at each JavaScript file located in the `js/` folder and follow the
 instructions to make the buttons on the page render HTML when they are clicked.
 
+You can see some example images of the expected result in the
+`solution_examples/` folder.
+
 ## Learning Objectives
 
 - Using JavaScript functions and data to generate HTML
