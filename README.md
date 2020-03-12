@@ -18,4 +18,6 @@ instructions to make the buttons on the page render HTML when they are clicked.
 
 [ISC License](LICENSE.md)
 
-Credit to [Adam Szaruga](https://github.com/adamszaruga) for the initial content of Scene It.
+Credit to [Adam Szaruga](https://github.com/adamszaruga) for the initial content of these exercises.
+
+Many thanks to [Aubrey Snider](https://github.com/aurmer) for porting over the exercises into this repo.
