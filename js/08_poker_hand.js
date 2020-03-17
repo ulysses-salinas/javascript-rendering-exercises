@@ -1,18 +1,16 @@
 ;(function () {
-  // convert a pokerhand JavaScript object to an HTML string
+ 
   function buildPokerHandHTML (pokerHand) {
-    // TODO: Your code goes here.
-    // HINT: utilize the (conveniently named) images in the ./images/cards/
-    //       directory to render each card in the hand.
+    for (i = 0; i < pokerHandData.length; i++){
+  }
     return `
-        <div class="text-center mt-5">
-            <code>${JSON.stringify(pokerHand)}</code>
+        <div class="text-center mt-5 cards">
+            <img src="images/cards/${pokerHand.value}${pokerHand.suit}.png">
         </div>
     `
   }
 
-  // here we have a pokerHand, represented by a JavaScript Array,
-  // each card represented by an Object.
+ 
   const pokerHandData = [
     {
       value: 'K',
@@ -35,8 +33,26 @@
       suit: 'H'
     }
   ]
+ let contentElement = document.getElementById('content')
+ let pokerHandsBtn = document.getElementById('pokerHandsBtn')
 
-  // Now that we have seen a few examples, try to write your own button click and
-  // attach event handler code below.
+ function clickPokerHandsBtn () {
+
+ contentElement.innerHTML = `
+      <div class="d-flex flex-column align-items-center ">
+      
+      <div class="d-flex flex-row align-items-center hand">
+      ${pokerHandData.map(buildPokerHandHTML).join(' ')}
+      </div>
+      </div>
+      `
+      
+}
+
+ 
+pokerHandsBtn.addEventListener('click', clickPokerHandsBtn)
+
+ 
+  
 
 })()
