@@ -1,12 +1,19 @@
-;(function () {
+; (function () {
   // convert a circle JavaScript object to an HTML string
-  function buildCircleHTML (circle) {
+  function buildCircleHTML(circle) {
     // HINT: You can create a circle out of a <div> by using the border-radius CSS property
     // { background: blue, border-radius: 50%; }
     return `
-        <div class="text-center mt-5">
-            <code>${JSON.stringify(circle)}</code>
-        </div>
+         <div class="circles"style="
+       
+       background-color: ${circle.color};
+       height:${circle.radius}px;
+       width:${circle.radius}px;
+       
+       
+        ">
+      </div>
+    
     `
   }
 
@@ -34,13 +41,13 @@
   const contentElement = document.getElementById('content')
   const btnEl = document.getElementById('circlesBtn')
 
-  function clickCirclesBtn () {
+  function clickCirclesBtn() {
     // using the buildCircleHTML function, create the HTML for the circlesData
     // Array and then put them into the <div id=content> element
 
     contentElement.innerHTML = `
       <div class="d-flex flex-column align-items-center">
-      ${circlesData.map(buildCircleHTML).join('')}
+      ${circlesData.map(buildCircleHTML).join(" ")}
       </div>
       `
   }

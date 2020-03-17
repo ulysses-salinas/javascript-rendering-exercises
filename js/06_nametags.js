@@ -1,15 +1,20 @@
 ;(function () {
-  // convert a nametag JavaScript object to an HTML string
-  function buildNametagHTML (nametag) {
-    // TODO: Your code goes here.
-    return `
-        <div class="text-center mt-5">
-            <code>${JSON.stringify(nametag)}</code>
-        </div>
-    `
-  }
 
-  // here we have five nametags, each represented by a JavaScript String,
+  function buildNametagHTML (nametag) {
+    
+    
+   for (i = 0; i < nametagsData.length; i++){
+  }
+  return `
+        <div class="d-flex flex-column align-items-center greeting">
+          Hello, my name is: 
+         </div>
+        <div class="nametag d-flex flex-column align-items-center " >
+            ${nametag.valueOf(nametagsData)}
+            </div>
+         `
+  }
+    // here we have five nametags, each represented by a JavaScript String,
   // all collected into an Array.
   const nametagsData = [
     'Kamilah',
@@ -18,8 +23,27 @@
     'Ron',
     'Krissy'
   ]
-
-  // Now that we have seen a few examples, try to write your own button click and
+  
+ // Now that we have seen a few examples, try to write your own button click and
   // attach event handler code below.
+
+  let contentElement = document.getElementById('content')
+  let nametagsBtn = document.getElementById('nametagsBtn')
+ 
+ function clickNametagsBtn () {
+
+contentElement.innerHTML = `
+
+      <div class="d-flex flex-column align-items-center ">
+     ${nametagsData.map(buildNametagHTML).join('')}
+</div>
+
+
+`
+}
+ 
+
+nametagsBtn.addEventListener('click', clickNametagsBtn)
+ 
 
 })()

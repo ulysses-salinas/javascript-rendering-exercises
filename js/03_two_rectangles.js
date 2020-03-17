@@ -3,9 +3,16 @@
   function buildRectangleHTML (rectangle) {
     // TODO: Your code goes here.
     return `
-        <div class="text-center mt-5">
-            <code>${JSON.stringify(rectangle)}</code>
-        </div>
+    <div style="
+    width: ${orangeRectangle.width}px;
+    height: ${orangeRectangle.height}px;
+    background-color: ${orangeRectangle.color};
+    ">
+    <div style="
+    width: ${blueRectangle.width}px;
+    height: ${blueRectangle.height}px;
+    background-color: ${blueRectangle.color};
+    ">
     `
   }
 
@@ -28,10 +35,19 @@
   function clickRectanglesBtn () {
     // using the buildRectangleHTML function, create the HTML for the orangeRectangle and blueRectangle
     // and then put them into the <div id=content> element
+  const orangeRectangleHTML = buildRectangleHTML(orangeRectangle)
+  const blueRectangleHTML = buildRectangleHTML(blueRectangle)
+  
+
 
     // TODO: your code goes here
+    contentElement.innerHTML = blueRectangleHTML + orangeRectangleHTML
+    
+
+    
   }
 
   // attach an event handler for button click
   btnEl.addEventListener('click', clickRectanglesBtn)
 })()
+

@@ -5,3 +5,73 @@
   padding: 5px;
   width: 165px;
 }
+
+div .circles {
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  background:blue;
+  margin: 0px 0px 20px 0px;
+  
+}
+
+div .ellipses {
+border-radius:50%;
+ margin: 0px 0px 20px 0px;
+  
+}
+
+div .nametag {
+  width: 600px;
+  color: black;
+  font-size: 75px;
+  border-style:  solid;
+  padding: 75px;
+  margin: 0px 0px 50px 0px;
+  
+  
+}
+
+div .greeting {
+  width: 600px;
+  border: 5px solid black;
+  padding: 50px;
+  
+  color: white;
+  font-size:35px;
+  background-color:blue;
+}
+
+
+div .attendance {
+  font-size:75px;
+}
+
+div .study {
+  font-size:50px;
+  color:black;
+
+}
+
+div .falses {
+  background-color:hsla(360, 83%, 59%, 1);
+}
+
+div .trues{
+  background-color:hsla(87, 100%, 50%, 1);
+}
+
+div .status {
+  font-size:30px;
+  color:black;
+  font-weight: bold;
+
+}
+
+div .boxes {
+  width: 400px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+ 
+}
